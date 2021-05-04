@@ -1,8 +1,8 @@
 /**
  
    DIAMOON tokenomics:
-   4% fee auto add to the liquidity pool to locked forever when selling
-   5% fee auto distribute to all holders
+   5% fee auto add to the liquidity pool to locked forever when selling
+   4% fee auto distribute to all holders
    1% community treasury wallet
    
  */
