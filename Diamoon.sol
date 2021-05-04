@@ -904,11 +904,11 @@ contract DIAMOON is Context, IERC20, Ownable {
     }
     
     function setCommunityWalletAddress(address communityWalletAddress) external onlyOwner() {
-        _communityWalletAddress = communityWalletAddress
+        _communityWalletAddress = communityWalletAddress;
     }
     
     function transferDustBNB() external onlyOwner() {
-        address payable wallet = payable(communityWalletAddress);
+        address payable wallet = payable(_communityWalletAddress);
         wallet.transfer(address(this).balance);
     }
 
